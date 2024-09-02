@@ -27,22 +27,12 @@ async function main() {
   console.log('-----')
 
   console.log(`Waiting for file to be processed`)
-  while (true) {
-    file = await client.files.retrieve(file.id)
-    console.log(`File status: ${file.status}`)
-
-    if (file.status === 'processed') {
-      break
-    } else {
-      await new Promise(resolve => setTimeout(resolve, 1000))
-    }
-  }
 
   console.log('-----')
 
   console.log(`Starting fine-tuning`)
   let fineTune = await client.fineTuning.jobs.create({
-    model: 'gpt-3.5-turbo',
+    model: 'gpt-4o-mini-2024-07-18',
     training_file: file.id
   })
   console.log(`Fine-tuning ID: ${fineTune.id}`)
@@ -53,7 +43,7 @@ async function main() {
 
   const events: Record<string, FineTuningJobEvent> = {}
 
-  while (fineTune.status == 'running' || fineTune.status == 'created') {
+  while (fineTune.status == 'running') {
     fineTune = await client.fineTuning.jobs.retrieve(fineTune.id)
     console.log(`${fineTune.status}`)
 
