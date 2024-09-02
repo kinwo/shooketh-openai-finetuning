@@ -45,7 +45,7 @@ export default function Chat() {
           <VercelIcon />
         </a>
         <a
-          href="https://github.com/steven-tey/shooketh"
+          href="https://github.com/vercel-labs/shooketh"
           target="_blank"
           className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
         >
@@ -111,7 +111,7 @@ export default function Chat() {
               </a>{" "}
               and{" "}
               <a
-                href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+                href="https://openai.com/index/gpt-4o-fine-tuning/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
@@ -204,16 +204,16 @@ export default function Chat() {
           </a>
           ,{" "}
           <a
-            href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+            href="https://openai.com/index/gpt-4o-fine-tuning/"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            OpenAI GPT-3.5-turbo, and fine-tuned
+            OpenAI GPT-4o-mini, and fine-tuned
           </a>{" "}
           on Shakespeare's literary works .{" "}
           <a
-            href="https://github.com/steven-tey/shooketh"
+            href="https://github.com/vercel-labs/shooketh"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
