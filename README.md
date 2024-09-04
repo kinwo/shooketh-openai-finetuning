@@ -19,13 +19,13 @@
 
 ## Introduction
 
-Shooketh is an AI bot built with the [Vercel AI SDK](https://sdk.vercel.ai/docs) and [fine-tuned](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) on Shakespeare's literary works. [Read the guide](https://vercel.com/guides/fine-tuning-openai-nextjs) on how you can build your own bot like me.
+Shooketh is an AI bot built with the [Vercel AI SDK](https://sdk.vercel.ai/docs) and [fine-tuned](https://openai.com/index/gpt-4o-fine-tuning/) on Shakespeare's literary works. [Read the guide](https://vercel.com/guides/fine-tuning-openai-nextjs) on how you can build your own bot like me.
 
 ## Deploy your own
 
 You can deploy your own version of Shooketh with 1-click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-description=An+AI+bot+built+with+the+Vercel+AI+SDK%2C+OpenAI+gpt-3.5-turbo%2C+and+fine-tuned+on+Shakespeare%27s+literary+works&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F18AaW1vWGDC6nOWYkVsYKu%2Fd18b230765c3436a9a3b3fd62bc06867%2FCleanShot_2023-08-30_at_10.07.14_2x.png&demo-title=Shooketh+%E2%80%93%C2%A0AI+bot+fine-tuned+on+Shakespeare&demo-url=https%3A%2F%2Fvercel.fyi/shooketh%2F&env=OPENAI_API_KEY&envDescription=Get+your+OpenAI+API+Key+here%3A&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&from=templates&project-name=Shooketh+%E2%80%93%C2%A0AI+bot+fine-tuned+on+Shakespeare&repository-name=shooketh&repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fshooketh)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-description=An+AI+bot+built+with+the+Vercel+AI+SDK%2C+OpenAI+gpt-4o-mini%2C+and+fine-tuned+on+Shakespeare%27s+literary+works&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F18AaW1vWGDC6nOWYkVsYKu%2Fd18b230765c3436a9a3b3fd62bc06867%2FCleanShot_2023-08-30_at_10.07.14_2x.png&demo-title=Shooketh+%E2%80%93%C2%A0AI+bot+fine-tuned+on+Shakespeare&demo-url=https%3A%2F%2Fvercel.fyi/shooketh%2F&env=OPENAI_API_KEY&envDescription=Get+your+OpenAI+API+Key+here%3A&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&from=templates&project-name=Shooketh+%E2%80%93%C2%A0AI+bot+fine-tuned+on+Shakespeare&repository-name=shooketh&repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fshooketh)
 
 ## Fine-tuning the model
 
@@ -36,7 +36,7 @@ You can deploy your own version of Shooketh with 1-click:
 ChatH is built on the following stack:
 
 - [Next.js](https://nextjs.org/) – framework
-- [OpenAI Fine-tuning](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) - Fine-tuning
+- [OpenAI Fine-tuning](https://openai.com/index/gpt-4o-fine-tuning/) - Fine-tuning
 - [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI completions
 - [Vercel](https://vercel.com) – deployments
 - [TailwindCSS](https://tailwindcss.com/) – styles
