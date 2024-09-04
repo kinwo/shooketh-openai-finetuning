@@ -1,4 +1,4 @@
-<a href="https://vercel.fyi/shooketh">
+<a href="https://shooketh-ai-4o.vercel.app">
   <img alt="Shooketh – AI bot fine-tuned on Shakespeare's literary works." src="/app/opengraph-image.png">
   <h1 align="center">Shooketh</h1>
 </a>
